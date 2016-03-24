@@ -1,0 +1,23 @@
+{
+  "name": "pointsservice",
+  "version": "0.1.0",
+  "description": "Logic associated with the actions on the repository.",
+  "main": "app.js",
+  "engines": {
+    "node": "5.4.1"
+  },
+  "scripts": {
+    "start": "NODE_ENV=dev hotnode app.js"
+  },
+  "keywords": [
+    "points"
+  ],
+  "author": "Isra San Jose Gonzalez",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "4.6.1",
+    "log4js": "0.6.33",
+    "node-env-file": "0.1.8",
+    "redis": "2.5.3"
+  }
+}
