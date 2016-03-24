@@ -1,0 +1,26 @@
+{
+  "points" : {
+    "commit" : 100,
+    "pull-request-open" : 500,
+    "pull-request-rejected" : -200,
+    "issue-open" : -100
+  },
+  "actions" : {
+    "commit" : [
+      "reputation",
+      "impact"
+    ],
+    "pull-request-open" : [
+      "reputation",
+      "impact"
+    ],
+    "pull-request-rejected" : [
+      "reputation",
+      "buggy"
+    ],
+    "issue-open" : [
+      "reputation",
+      "buggy"
+    ]
+  }
+}
