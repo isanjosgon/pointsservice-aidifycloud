@@ -13,16 +13,16 @@ class GetStatScoreUseCase
     this.logicActions = logicActions;
   }
   execute (params,next) {
-    let userid = params.userid;
+    const self = this;
     let stats = [];
-    _.each(logicActions[params.action],function (stat) {
+    _.each(self.logicActions[params.action],function (stat) {
       stats.push(new Stat(
         params.userid,
         stat,
-        logicPoints['stat']
+        self.logicPoints[params.action]
       ));
     });
-    next(stats);
+    next && next(stats);
   }
 }
 

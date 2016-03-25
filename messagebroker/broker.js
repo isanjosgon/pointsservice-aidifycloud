@@ -24,10 +24,7 @@ class Broker
       let action = message.split(':')[0];
       if (service == 'POINTSSERVICE' && action === 'SET_POINTS') {
         logger && logger.log('request MESSAGE : ' + message);
-        getstatscore.execute(JSON.parse(message.split(':')[1]),function (err,scores) {
-          if (err) {
-            return logger.error(err);
-          }
+        getstatscore.execute(JSON.parse(message.split(':')[1]),function (scores) {
           _.each(scores,function (stat) {
             logger && logger.log('publish to SERVICE:STATSMANAGEMENT:' + JSON.stringify(stat));
             client_pub.publish('SERVICE:STATSMANAGEMENT',JSON.stringify(stat));
