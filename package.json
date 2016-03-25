@@ -7,7 +7,8 @@
     "node": "5.4.1"
   },
   "scripts": {
-    "start": "NODE_ENV=dev hotnode app.js"
+    "start": "NODE_ENV=dev hotnode app.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "keywords": [
     "points"
@@ -19,5 +20,9 @@
     "log4js": "0.6.33",
     "node-env-file": "0.1.8",
     "redis": "2.5.3"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": ">= 0.0.1"
   }
 }
