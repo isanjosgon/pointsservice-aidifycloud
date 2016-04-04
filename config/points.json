@@ -1,26 +1,41 @@
 {
   "points" : {
-    "commit" : 100,
-    "pull-request-open" : 500,
-    "pull-request-rejected" : -200,
-    "issue-open" : -100
+    "commit-created" : 100,
+    "pullrequestevent-opened" : 500,
+    "pullrequestevent-reopened" : 300,
+    "pullrequestevent-closed" : -200,
+    "issuesevent-opened" : -100,
+    "issuesevent-reopened" : -150,
+    "issuesevent-closed" : 50
   },
   "actions" : {
-    "commit" : [
+    "commit-created" : [
       "reputation",
       "impact"
     ],
-    "pull-request-open" : [
+    "pullrequestevent-opened" : [
       "reputation",
       "impact"
     ],
-    "pull-request-rejected" : [
+    "pullrequestevent-reopened" : [
+      "reputation",
+      "impact"
+    ],
+    "pullrequestevent-closed" : [
       "reputation",
       "buggy"
     ],
-    "issue-open" : [
+    "issuesevent-opened" : [
       "reputation",
       "buggy"
+    ],
+    "issuesevent-reopened" : [
+      "reputation",
+      "buggy"
+    ],
+    "issuesevent-closed" : [
+      "reputation",
+      "impact"
     ]
   }
 }

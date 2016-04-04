@@ -8,21 +8,22 @@ const Stat = require('../model/stat/stat');
 
 class GetStatScoreUseCase
 {
-  constructor (logicPoints,logicActions) {
+  constructor (logicPoints, logicActions) {
     this.logicPoints = logicPoints;
     this.logicActions = logicActions;
   }
   execute (params,next) {
-    let userid = params.userid;
+	const self = this;
     let stats = [];
-    _.each(logicActions[params.action],function (stat) {
+    _.each(this.logicActions[params.type + '-' + params.action], function(stat) {
       stats.push(new Stat(
-        params.userid,
+        params.user,
         stat,
-        logicPoints['stat']
+        self.logicPoints[params.type + '-' + params.action]
       ));
     });
-    next(stats);
+	params['points'] = this.logicPoints[params.type + '-' + params.action];
+    next(null, params, stats);
   }
 }
 
