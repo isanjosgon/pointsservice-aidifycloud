@@ -5,8 +5,8 @@
 
 class Stat
 {
-  constructor (id,stat,points) {
-    this.userid = id;
+  constructor (user,stat,points) {
+    this.user = user;
     this.stat = stat;
     this.points = points;
   }

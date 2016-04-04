@@ -23,7 +23,8 @@
     ],
     "pullrequestevent-closed" : [
       "reputation",
-      "buggy"
+      "buggy",
+	  "helpful"
     ],
     "issuesevent-opened" : [
       "reputation",
@@ -35,7 +36,8 @@
     ],
     "issuesevent-closed" : [
       "reputation",
-      "impact"
+      "impact",
+	  "helpful"
     ]
   }
 }
