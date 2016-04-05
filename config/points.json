@@ -4,10 +4,11 @@
     "pullrequestevent-opened" : 500,
     "pullrequestevent-reopened" : 300,
     "pullrequestevent-closed" : -200,
+    "pullrequestevent-merged" : 0,
     "issuesevent-opened" : -100,
     "issuesevent-reopened" : -150,
     "issuesevent-closed" : 50,
-	"pushevent-created" : 25
+	"pushevent-created" : 500
   },
   "actions" : {
     "commit-created" : [
@@ -27,6 +28,9 @@
       "buggy",
 	  "helpful"
     ],
+	"pullrequestevent-merged" : [
+	  "helpful"
+	],
     "issuesevent-opened" : [
       "reputation",
       "buggy"
