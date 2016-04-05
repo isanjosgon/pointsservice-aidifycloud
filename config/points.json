@@ -6,7 +6,8 @@
     "pullrequestevent-closed" : -200,
     "issuesevent-opened" : -100,
     "issuesevent-reopened" : -150,
-    "issuesevent-closed" : 50
+    "issuesevent-closed" : 50,
+	"pushevent-created" : 25
   },
   "actions" : {
     "commit-created" : [
@@ -35,6 +36,11 @@
       "buggy"
     ],
     "issuesevent-closed" : [
+      "reputation",
+      "impact",
+	  "helpful"
+    ],
+	"pushevent-created" : [
       "reputation",
       "impact",
 	  "helpful"
