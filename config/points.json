@@ -4,7 +4,7 @@
     "pullrequestevent-opened" : 500,
     "pullrequestevent-reopened" : 300,
     "pullrequestevent-closed" : -200,
-    "pullrequestevent-merged" : 0,
+    "pullrequestevent-merged" : 10,
     "issuesevent-opened" : -100,
     "issuesevent-reopened" : -150,
     "issuesevent-closed" : 50,

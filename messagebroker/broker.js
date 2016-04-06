@@ -30,9 +30,6 @@ class Broker
             return logger.error(err);
           }
 		  
-		  if (!logger)
-			  console.log("Sin log");
-		  
 		  console.log("Activity %j", activity);
 		  let action = "CREATE_ACTIVITY";
 		  let activityValue = JSON.stringify(activity);
