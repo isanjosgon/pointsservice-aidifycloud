@@ -1,25 +1,97 @@
-[2016-04-05 22:58:14.836] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"jrsalazares","stat":"reputation","points":50}
-[2016-04-05 22:58:14.836] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"jrsalazares","stat":"impact","points":50}
-[2016-04-05 22:58:14.836] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"jrsalazares","stat":"helpful","points":50}
-[2016-04-05 22:58:14.836] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3850226603","type":"issuesevent","action":"reopened","user":"jrsalazares","repo":"aidify/test","createdAt":"2016-04-05T20:05:53Z","eventUser":"Adriano90","title":"New issue","body":"issue body extra short"}
-[2016-04-05 22:58:14.836] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"jrsalazares","stat":"reputation","points":-150}
-[2016-04-05 22:58:14.836] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"jrsalazares","stat":"buggy","points":-150}
-[2016-04-05 22:58:14.836] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3850226234","type":"issuesevent","action":"closed","user":"jrsalazares","repo":"aidify/test","createdAt":"2016-04-05T20:05:49Z","eventUser":"Adriano90","title":"New issue","body":"issue body extra short"}
-[2016-04-05 22:58:14.836] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"jrsalazares","stat":"reputation","points":50}
-[2016-04-05 22:58:14.836] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"jrsalazares","stat":"impact","points":50}
-[2016-04-05 22:58:14.836] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"jrsalazares","stat":"helpful","points":50}
-[2016-04-05 22:58:14.836] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3850225185","type":"issuesevent","action":"opened","user":"jrsalazares","repo":"aidify/test","createdAt":"2016-04-05T20:05:36Z","eventUser":"Adriano90","title":"New issue","body":"issue body extra short"}
-[2016-04-05 22:58:14.836] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"jrsalazares","stat":"reputation","points":-100}
-[2016-04-05 22:58:14.836] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"jrsalazares","stat":"buggy","points":-100}
-[2016-04-05 22:58:14.851] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3850193416","type":"commit","action":"created","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-05T19:58:56Z"}
-[2016-04-05 22:58:14.851] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":100}
-[2016-04-05 22:58:14.851] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":100}
-[2016-04-05 22:58:15.910] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3850193416","type":"commit","action":"created","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-05T19:58:56Z"}
-[2016-04-05 22:58:15.910] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":100}
-[2016-04-05 22:58:15.910] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":100}
-[2016-04-05 22:58:15.910] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3850193416","type":"pushevent","action":"created","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-05T19:58:56Z"}
-[2016-04-05 22:58:15.914] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":500}
-[2016-04-05 22:58:15.914] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":500}
-[2016-04-05 22:58:15.914] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"helpful","points":500}
-[2016-04-05 22:58:15.914] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3850193118","type":"pullrequestevent","action":"merged","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-05T19:58:53Z","eventUser":"Adriano90","title":"Update README.md asfasd","body":"Comment asfasdf"}
-[2016-04-05 22:58:15.914] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"helpful","points":0}
+[2016-04-07 23:21:59.414] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":300}
+[2016-04-07 23:21:59.414] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":300}
+[2016-04-07 23:21:59.417] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861346897","type":"pullrequestevent","action":"closed","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:17Z","eventUser":"Adriano90","title":"new awesome changes","body":"Please merge this great changes"}
+[2016-04-07 23:21:59.419] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":-200}
+[2016-04-07 23:21:59.420] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"buggy","points":-200}
+[2016-04-07 23:21:59.421] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"helpful","points":-200}
+[2016-04-07 23:21:59.422] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861346203","type":"pullrequestevent","action":"opened","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:08Z","eventUser":"Adriano90","title":"new awesome changes","body":"Please merge this great changes"}
+[2016-04-07 23:21:59.422] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":500}
+[2016-04-07 23:21:59.422] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":500}
+[2016-04-07 23:23:40.285] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861348391","type":"commit","action":"created","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:36Z"}
+[2016-04-07 23:23:40.285] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":100}
+[2016-04-07 23:23:40.285] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":100}
+[2016-04-07 23:23:40.285] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861348391","type":"commit","action":"created","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:36Z"}
+[2016-04-07 23:23:40.285] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":100}
+[2016-04-07 23:23:40.285] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":100}
+[2016-04-07 23:23:40.300] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861348391","type":"pushevent","action":"created","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:36Z"}
+[2016-04-07 23:23:40.300] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":500}
+[2016-04-07 23:23:40.300] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":500}
+[2016-04-07 23:23:40.300] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"helpful","points":500}
+[2016-04-07 23:23:40.300] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861348332","type":"pullrequestevent","action":"merged","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:35Z","eventUser":"Adriano90","title":"new awesome changes","body":"Please merge this great changes"}
+[2016-04-07 23:23:40.300] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"helpful","points":10}
+[2016-04-07 23:23:40.300] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861347193","type":"pullrequestevent","action":"reopened","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:20Z","eventUser":"Adriano90","title":"new awesome changes","body":"Please merge this great changes"}
+[2016-04-07 23:23:40.300] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":300}
+[2016-04-07 23:23:40.300] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":300}
+[2016-04-07 23:23:40.300] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861346897","type":"pullrequestevent","action":"closed","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:17Z","eventUser":"Adriano90","title":"new awesome changes","body":"Please merge this great changes"}
+[2016-04-07 23:23:40.300] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":-200}
+[2016-04-07 23:23:40.300] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"buggy","points":-200}
+[2016-04-07 23:23:40.300] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"helpful","points":-200}
+[2016-04-07 23:23:40.300] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861346203","type":"pullrequestevent","action":"opened","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:08Z","eventUser":"Adriano90","title":"new awesome changes","body":"Please merge this great changes"}
+[2016-04-07 23:23:40.300] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":500}
+[2016-04-07 23:23:40.300] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":500}
+[2016-04-07 23:34:33.500] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861348391","type":"commit","action":"created","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:36Z"}
+[2016-04-07 23:34:33.510] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":100}
+[2016-04-07 23:34:33.511] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":100}
+[2016-04-07 23:34:33.512] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861348391","type":"commit","action":"created","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:36Z"}
+[2016-04-07 23:34:33.512] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":100}
+[2016-04-07 23:34:33.513] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":100}
+[2016-04-07 23:34:33.513] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861348391","type":"pushevent","action":"created","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:36Z"}
+[2016-04-07 23:34:33.514] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":500}
+[2016-04-07 23:34:33.514] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":500}
+[2016-04-07 23:34:33.514] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"helpful","points":500}
+[2016-04-07 23:34:33.515] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861348332","type":"pullrequestevent","action":"merged","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:35Z","eventUser":"Adriano90","title":"new awesome changes","body":"Please merge this great changes"}
+[2016-04-07 23:34:33.516] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"helpful","points":10}
+[2016-04-07 23:34:33.516] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861347193","type":"pullrequestevent","action":"reopened","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:20Z","eventUser":"Adriano90","title":"new awesome changes","body":"Please merge this great changes"}
+[2016-04-07 23:34:33.516] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":300}
+[2016-04-07 23:34:33.517] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":300}
+[2016-04-07 23:34:33.518] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861346897","type":"pullrequestevent","action":"closed","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:17Z","eventUser":"Adriano90","title":"new awesome changes","body":"Please merge this great changes"}
+[2016-04-07 23:34:33.519] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":-200}
+[2016-04-07 23:34:33.520] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"buggy","points":-200}
+[2016-04-07 23:34:33.520] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"helpful","points":-200}
+[2016-04-07 23:34:33.521] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861346203","type":"pullrequestevent","action":"opened","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:08Z","eventUser":"Adriano90","title":"new awesome changes","body":"Please merge this great changes"}
+[2016-04-07 23:34:33.521] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":500}
+[2016-04-07 23:34:33.522] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":500}
+[2016-04-07 23:36:42.598] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861348391","type":"commit","action":"created","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:36Z"}
+[2016-04-07 23:36:42.598] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":100}
+[2016-04-07 23:36:42.598] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":100}
+[2016-04-07 23:36:42.598] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861348391","type":"commit","action":"created","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:36Z"}
+[2016-04-07 23:36:42.598] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":100}
+[2016-04-07 23:36:42.598] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":100}
+[2016-04-07 23:36:42.598] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861348391","type":"pushevent","action":"created","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:36Z"}
+[2016-04-07 23:36:42.598] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":500}
+[2016-04-07 23:36:42.598] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":500}
+[2016-04-07 23:36:42.613] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"helpful","points":500}
+[2016-04-07 23:36:42.613] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861348332","type":"pullrequestevent","action":"merged","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:35Z","eventUser":"Adriano90","title":"new awesome changes","body":"Please merge this great changes"}
+[2016-04-07 23:36:42.613] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"helpful","points":10}
+[2016-04-07 23:36:42.613] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861347193","type":"pullrequestevent","action":"reopened","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:20Z","eventUser":"Adriano90","title":"new awesome changes","body":"Please merge this great changes"}
+[2016-04-07 23:36:42.613] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":300}
+[2016-04-07 23:36:42.613] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":300}
+[2016-04-07 23:36:42.630] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861346897","type":"pullrequestevent","action":"closed","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:17Z","eventUser":"Adriano90","title":"new awesome changes","body":"Please merge this great changes"}
+[2016-04-07 23:36:42.630] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":-200}
+[2016-04-07 23:36:42.630] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"buggy","points":-200}
+[2016-04-07 23:36:42.630] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"helpful","points":-200}
+[2016-04-07 23:36:42.630] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861346203","type":"pullrequestevent","action":"opened","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:08Z","eventUser":"Adriano90","title":"new awesome changes","body":"Please merge this great changes"}
+[2016-04-07 23:36:42.630] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":500}
+[2016-04-07 23:36:42.630] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":500}
+[2016-04-07 23:38:57.823] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861348391","type":"commit","action":"created","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:36Z"}
+[2016-04-07 23:38:57.823] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":100}
+[2016-04-07 23:38:57.823] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":100}
+[2016-04-07 23:38:57.823] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861348391","type":"commit","action":"created","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:36Z"}
+[2016-04-07 23:38:57.823] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":100}
+[2016-04-07 23:38:57.823] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":100}
+[2016-04-07 23:38:57.823] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861348391","type":"pushevent","action":"created","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:36Z"}
+[2016-04-07 23:38:57.823] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":500}
+[2016-04-07 23:38:57.823] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":500}
+[2016-04-07 23:38:57.823] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"helpful","points":500}
+[2016-04-07 23:38:57.839] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861348332","type":"pullrequestevent","action":"merged","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:35Z","eventUser":"Adriano90","title":"new awesome changes","body":"Please merge this great changes"}
+[2016-04-07 23:38:57.839] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"helpful","points":10}
+[2016-04-07 23:38:57.839] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861347193","type":"pullrequestevent","action":"reopened","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:20Z","eventUser":"Adriano90","title":"new awesome changes","body":"Please merge this great changes"}
+[2016-04-07 23:38:57.839] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":300}
+[2016-04-07 23:38:57.839] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":300}
+[2016-04-07 23:38:57.839] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861346897","type":"pullrequestevent","action":"closed","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:17Z","eventUser":"Adriano90","title":"new awesome changes","body":"Please merge this great changes"}
+[2016-04-07 23:38:57.839] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":-200}
+[2016-04-07 23:38:57.839] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"buggy","points":-200}
+[2016-04-07 23:38:57.839] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"helpful","points":-200}
+[2016-04-07 23:38:57.839] [INFO] info - request MESSAGE : SET_POINTS:{"id":"3861346203","type":"pullrequestevent","action":"opened","user":"Adriano90","repo":"aidify/test","createdAt":"2016-04-07T20:55:08Z","eventUser":"Adriano90","title":"new awesome changes","body":"Please merge this great changes"}
+[2016-04-07 23:38:57.839] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"reputation","points":500}
+[2016-04-07 23:38:57.839] [INFO] info - publish to SERVICE:STATSMANAGEMENT:{"user":"Adriano90","stat":"impact","points":500}

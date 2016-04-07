@@ -23,6 +23,7 @@ class GetStatScoreUseCase
       ));
     });
 	params['points'] = this.logicPoints[params.type + '-' + params.action];
+	params['affectedStats'] = this.logicActions[params.type + '-' + params.action];
     next && next(null, params, stats);
   }
 }
