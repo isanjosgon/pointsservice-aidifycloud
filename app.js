@@ -19,4 +19,4 @@ new Broker(config.messagebroker,logger,getStatScoreUseCase);
 // Healthcheck server
 const Server = require('./restapi/server');
 
-new Server(logger, config.api);
+new Server(logger, config.restapi);

@@ -12,8 +12,10 @@ env(__dirname + '/.' + file);
 
 module.exports = {
   environment : process.env.NODE_ENV || 'dev',
-  api: {
-	port: process.env.PORT
+  restapi: {
+	port: process.env.PORT,
+    name : config.name,
+    version : config.version
   },
   messagebroker : {
     host : process.env.REDIS_HOST,
